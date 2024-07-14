@@ -15,6 +15,8 @@ def load_css(file_name):
     with open(file_name, 'r') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+#Data set used https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
 # Load custom CSS
 load_css('style.css')
 # Load your data and model here
